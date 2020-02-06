@@ -15,6 +15,8 @@
 		5B1D6A7C235EA21000518F47 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B1D6A7A235EA21000518F47 /* LaunchScreen.storyboard */; };
 		5B1D6A7F235EA21000518F47 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B1D6A7E235EA21000518F47 /* main.m */; };
 		5B1D6A88235EA26000518F47 /* MJKLoadMethodTracer.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B1D6A86235EA26000518F47 /* MJKLoadMethodTracer.m */; };
+		5B1F394823C47C5500BD196D /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B1F394723C47C5500BD196D /* Person.m */; };
+		5B1F394B23C47C6F00BD196D /* Person+Test1.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B1F394A23C47C6F00BD196D /* Person+Test1.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,10 @@
 		5B1D6A7E235EA21000518F47 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5B1D6A86235EA26000518F47 /* MJKLoadMethodTracer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJKLoadMethodTracer.m; sourceTree = "<group>"; };
 		5B1D6A87235EA26000518F47 /* MJKLoadMethodTracer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJKLoadMethodTracer.h; sourceTree = "<group>"; };
+		5B1F394623C47C5500BD196D /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		5B1F394723C47C5500BD196D /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		5B1F394923C47C6F00BD196D /* Person+Test1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Person+Test1.h"; sourceTree = "<group>"; };
+		5B1F394A23C47C6F00BD196D /* Person+Test1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Person+Test1.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +77,10 @@
 				5B1D6A70235EA20D00518F47 /* SceneDelegate.m */,
 				5B1D6A72235EA20D00518F47 /* ViewController.h */,
 				5B1D6A73235EA20D00518F47 /* ViewController.m */,
+				5B1F394623C47C5500BD196D /* Person.h */,
+				5B1F394723C47C5500BD196D /* Person.m */,
+				5B1F394923C47C6F00BD196D /* Person+Test1.h */,
+				5B1F394A23C47C6F00BD196D /* Person+Test1.m */,
 				5B1D6A75235EA20D00518F47 /* Main.storyboard */,
 				5B1D6A78235EA21000518F47 /* Assets.xcassets */,
 				5B1D6A7A235EA21000518F47 /* LaunchScreen.storyboard */,
@@ -159,11 +169,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B1D6A88235EA26000518F47 /* MJKLoadMethodTracer.m in Sources */,
+				5B1F394823C47C5500BD196D /* Person.m in Sources */,
 				5B1D6A74235EA20D00518F47 /* ViewController.m in Sources */,
 				5B1D6A6E235EA20D00518F47 /* AppDelegate.m in Sources */,
 				5B1D6A7F235EA21000518F47 /* main.m in Sources */,
+				5B1F394B23C47C6F00BD196D /* Person+Test1.m in Sources */,
 				5B1D6A71235EA20D00518F47 /* SceneDelegate.m in Sources */,
-				5B1D6A88235EA26000518F47 /* MJKLoadMethodTracer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

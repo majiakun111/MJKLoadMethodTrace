@@ -1,9 +1,7 @@
+//  MJKLoadMethodTrace.h
 //
-//  CSMLoadMethodTracer.h
-//  Pods
-//
-//  Created by Zhiyu_Wang on 2017/7/18.
-//
+//  Created by Ansel on 2019/10/22.
+//  Copyright © 2019 Ansel. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
